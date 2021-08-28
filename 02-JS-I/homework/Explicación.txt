@@ -1,0 +1,17 @@
+Explicación de conceptos - Por Francisco Salcedo
+Explicar los siguientes conceptos
+
+    * Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+* Una variable es un elemento que representa un espacio de memoria en el computador que sirve para guardar Valores
+* String: es un tipo de variable que se almacena en forma de cadena de caracteres, que pueden ser alfanumericos, siempre y cuando se escriban entre comillas
+* Una función es un metodo que permite agrupar lineas de codigo para ejecutar tareas repetitivas y de una parte llamada argumentos 
+  que es donde se definen criterios de entrada de datos por parte del usuario, y aue retorna valores que los determina el programador
+* Declaraciones if: es un paramtero condicional que permite tomar decisiones en el codigo, donde se evalua si un criterio es verdadero o falso, y dependiendo
+  de la evaluación que se determine se ejecutan o no lineas de codigo
+* Valores booleanos: son valores propios de programación que determinan un valor verdadero (true) o falso (false) y se utilizan para evaluar funciones condicionales
+
