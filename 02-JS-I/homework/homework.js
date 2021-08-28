@@ -167,8 +167,8 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  numero = num;
-  numero = Math.round(numero);
+  var numero = num;
+  var numero = Math.round(numero);
   return numero;
 }
 
