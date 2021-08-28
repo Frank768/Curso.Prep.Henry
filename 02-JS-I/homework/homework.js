@@ -158,9 +158,9 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  base = num;
-  exponente = exponent;
-  resultado1 = Math.pow(base,exponente);
+  var base = num;
+  var exponente = exponent;
+  var resultado1 = Math.pow(base,exponente);
   return resultado1;
 }
 
