@@ -35,21 +35,21 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  operacion = x+y;
+  var operacion = x+y;
   return operacion;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  restar = x-y;
+  var restar = x-y;
   return restar;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  multiplicacion = x*y;
+  var multiplicacion = x*y;
   return multiplicacion;
   
 }
@@ -57,7 +57,7 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  division = x / y;
+  var division = x / y;
   return division;
 }
 
@@ -77,8 +77,8 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   var cadena1 = str1;
   var cadena2= str2;
-  NumCad1 = cadena1.length;
-  NumCad2 = cadena2.length;
+  var NumCad1 = cadena1.length;
+  var NumCad2 = cadena2.length;
   if (NumCad1 === NumCad2) 
     return true;
   else
@@ -90,7 +90,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  numero = num;
+  var numero = num;
   if (numero < 90)
     return true;
   else
@@ -101,7 +101,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  numero = num;
+  var numero = num;
   if (numero > 50)
     return true;
   else
@@ -111,7 +111,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  operacion = x % y;
+  var operacion = x % y;
   return operacion
 }
 
@@ -119,7 +119,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  numero = num;
+  var numero = num;
 
   if ((numero % 2) == 0)
     return true;
@@ -131,7 +131,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  numero = num;
+  var numero = num;
   if ((numero % 2) != 0)
     return true;
   else
@@ -142,16 +142,16 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
- numero = num;
-  resultado = numero*numero;
+  var numero = num;
+  var resultado = numero*numero;
   return resultado;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  numero = num;
-  resultado = Math.pow(numero,3);
+  var numero = num;
+  var resultado = Math.pow(numero,3);
   return resultado;
 }
 
@@ -175,8 +175,8 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  numero = num;
-  numero = Math.ceil(numero);
+  var numero = num;
+  var numero = Math.ceil(numero);
   return numero;
 }
 
@@ -206,8 +206,8 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  mensaje = str;
-  mensaje = mensaje + "!";
+  var mensaje = str;
+  var mensaje = mensaje + "!";
   return mensaje;
 }
 
